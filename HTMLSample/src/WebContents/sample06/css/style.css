@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+/*=====ヘッダメニュー=====*/
+
+/*メニュー項目のブロック全体*/
+.headmenu ul{
+	text-align:center;	/*メニュー項目を中央に配置する*/
+	width:500px;	/*緑の地色の幅を指定*/
+	margin:0 auto 0 auto;	/*autoを左右に指定してブロック自体を中央配置*/
+
+	padding:5px;
+	list-style:none;
+	background:#c3ebbe;
+}
+
+/*メニュー項目の設定*/
+.headmenu li{
+	display:inline-block;		/*この要素を左から横に並べる*/
+
+	margin:0;
+	padding:10px;
+	border:1px solid #ffffff;
+}
+
+/*IE6向けの設定*/
+* html .headmenu li{
+	display:inline; zoom:1;	
+}
+/*IE7向けの設定*/
+*+html .headmenu li{
+	display:inline; zoom:1;	
+}

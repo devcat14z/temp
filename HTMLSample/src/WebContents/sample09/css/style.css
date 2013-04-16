@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+/*=====ページレイアウト全体=====*/
+.block_all{
+	overflow:hidden; zoom:1;	/*内側の要素にfloatプロパティがあるときのおまじない*/
+
+	padding:5px;
+	background:#81cc77;
+}
+
+/*左段*/
+.block_left{
+	float:left;	/*画像の段を左寄せに*/
+	margin:0 20px 0 0;	/*画像の段の右側に空白を作る*/
+
+	background:#c3ebbe;
+}
+
+/*右段*/
+.block_right{
+	overflow:hidden;	/*タイトルとサマリーのブロックを右段として段組み化*/
+
+	background:#c3ebbe;
+}

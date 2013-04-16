@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+/*=====ページレイアウト全体=====*/
+.block_all{
+	width:990px;
+	overflow:hidden; zoom:1;	/*内側の要素にfloatプロパティがあるときのおまじない*/
+
+	padding:5px;
+	background:#81cc77;
+}
+
+/*左段*/
+.block_left{
+	width:210px;
+	float:left;	/*画像のある左段に左寄せの指定*/
+	margin:0 20px 0 0;	/*左段と中央の段との余白*/
+
+	background:#c3ebbe;
+}
+
+/*中央の段*/
+.block_center{
+	width:470px;
+	float:left;	/*エッセイ文のある中央の段にも左寄せの指定*/
+	margin:0 20px 0 0;	/*中央の段と右段との余白*/
+
+	background:#c3ebbe;
+}
+
+/*右段*/
+.block_right{
+	width:270px;
+	float:left;	/*メニューのある右段にも左寄せの指定*/
+
+	background:#c3ebbe;
+}

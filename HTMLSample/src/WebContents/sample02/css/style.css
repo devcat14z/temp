@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*=====サイドメニュー2=====*/
+
+/*見出し*/
+.sidemenu h3{
+	margin:0 0 7px 0;				/*背景の外側の余白。上、右、下、左の順で指定*/
+	padding:5px 0 5px 5px;			/*背景の内側の余白。指定順はmarginと同様*/
+	background:#eec7b6;			/*背景色*/
+	border-left:7px solid #d26860;	/*左端のエンジ色の柱は線の設定で描く。線の太さ、線の形状、色の順で指定*/
+	font-size:18px;					/*文字の大きさ*/
+	line-height:1.3em;				/*行間*/
+}
+
+/*メニュー項目のブロック全体*/
+.sidemenu ul{
+	margin:0;	/*ulタグの領域の外側の余白を0にリセット*/
+	padding:0;	/*ulタグの領域の内側の余白を0にリセット*/
+	list-style:none;	/*メニュー項目先頭の黒丸を消去*/
+}
+
+/*メニュー項目のリンク設定*/
+.sidemenu li a{
+	background:url(../images/cat_foot.png) no-repeat 0 6px;		/*猫の足跡は背景として敷く。背景画像は繰り返さず、横0、上6px空けて配置する*/
+	padding:3px 0 3px 18px;									/*猫の足跡アイコンとメニュー項目の文字がカブらないように、左側を18px空ける*/
+	border-bottom:1px solid #f7b1a6;							/*メニュー項目の上下の区切り線。下にだけ引く*/
+	font-size:14px;
+	line-height:1.3em;
+
+	display:block;				/*文字だけでなく、一段丸ごとリンクにする*/
+	text-decoration:none;		/*リンクの下線を消す*/
+	color:#333333;			/*リンクの文字色を指定*/
+}
+/*メニュー項目のリンクにマウスオーバーしたときの設定*/
+.sidemenu li a:hover{
+	color:#666666;			/*リンクの文字色を指定*/
+	background:url(../images/cat_foot.png) no-repeat 0 6px #ffdcd7;		/*猫の足跡アイコンと背景色を同時指定*/
+}

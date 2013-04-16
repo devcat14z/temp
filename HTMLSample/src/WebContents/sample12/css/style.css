@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+/*=====カタログ全体の指定=====*/
+.block_all{
+	width:990px;
+
+	padding:5px;
+	background:#81cc77;
+}
+
+/*パネル*/
+.block{
+	width:200px;	/*幅の指定*/
+	display:inline-block;	/*左寄せの指定*/
+	text-align:center;	/*パネルの中で、画像とキャプションを中央揃え*/
+	vertical-align:top;	/*カタログのパネルを上に揃える*/
+
+	margin:10px;
+	padding:10px;
+	background:#c3ebbe;
+}
+
+/*IE6向けの設定*/
+* html .block{
+	display:inline; zoom:1;	
+}
+/*IE7向けの設定*/
+*+html .block{
+	display:inline; zoom:1;	
+}

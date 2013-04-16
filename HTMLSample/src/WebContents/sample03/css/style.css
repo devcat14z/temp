@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+/*=====ヘッダメニュー=====*/
+
+/*メニュー項目のブロック全体*/
+.headmenu ul{
+	overflow:hidden; zoom:1;	/*内側の要素にfloatプロパティがあるときのおまじない*/
+
+	margin:0;
+	padding:5px;
+	list-style:none;
+	background:#c3ebbe;	/*メニュー項目全体を覆う地色の指定*/
+}
+
+/*メニュー項目の設定*/
+.headmenu li{
+	float:left;		/*この要素を左から横に並べる*/
+
+	margin:0;
+	padding:10px;
+	border:1px solid #ffffff;
+}

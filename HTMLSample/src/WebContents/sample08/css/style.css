@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+/*=====ページレイアウト全体=====*/
+.block_all{
+	width:990px;
+	overflow:hidden; zoom:1;	/*内側の要素にfloatプロパティがあるときのおまじない*/
+
+	padding:5px;
+	background:#81cc77;
+}
+
+/*左段*/
+.block_left{
+	width:700px;
+	float:left;	/*エッセイ文の左段に左寄せの指定*/
+
+	background:#c3ebbe;
+}
+
+/*右段*/
+.block_right{
+	width:270px;
+	float:right;/*メニュー項目のブロック全体を右段として右寄せの指定*/
+
+	background:#c3ebbe;
+}

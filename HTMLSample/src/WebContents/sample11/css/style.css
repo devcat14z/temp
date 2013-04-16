@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+/*=====カタログ全体の指定=====*/
+.block_all{
+	width:990px;
+	overflow:hidden; zoom:1;	/*内側の要素にfloatプロパティがあるときのおまじない*/
+
+	padding:5px;
+	background:#81cc77;
+}
+
+/*パネル*/
+.block{
+	width:200px;	/*幅の指定*/
+	float:left;	/*左寄せの指定*/
+	text-align:center;	/*パネルの中で、画像とキャプションを中央揃え*/
+
+	margin:10px;
+	padding:10px;
+	background:#c3ebbe;
+}

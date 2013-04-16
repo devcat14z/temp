@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+/*=====ヘッダメニュー=====*/
+.headmenu{
+	overflow:hidden; zoom:1;	/*内側の要素にfloatプロパティがあるときのおまじない*/
+	width:600px;	/*左寄せの見出しと、右寄せのメニュー項目のブロック全体の幅の合計より大きい数字を指定し、レイアウトが崩れるのを防ぐ*/
+
+	padding:5px;
+	background:#81cc77;
+}
+
+/*見出し*/
+.headmenu h3{
+	float:left;	/*見出しに左寄せの指定*/
+
+	margin:0;
+	padding:0;
+	background:#c3ebbe;
+}
+
+/*メニュー項目のブロック全体*/
+.headmenu ul{
+	float:right;/*メニュー項目のブロック全体を見出しの右側に配置*/
+
+	overflow:hidden; zoom:1;	/*内側の要素にfloatプロパティがあるときのおまじない*/
+	margin:0;
+	padding:5px;
+	list-style:none;
+	background:#c3ebbe;
+}
+
+/*メニュー項目の設定*/
+.headmenu li{
+	float:left;		/*この要素を左から横に並べる*/
+
+	margin:0;
+	padding:10px;
+	border:1px solid #ffffff;
+}
